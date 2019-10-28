@@ -13,7 +13,7 @@ data = open('data.csv')
 list_ = csv.DictReader(data)
 
 
-f= open("find_payment_shell.csv","w+")
+f= open("find_payment.csv","w+")
 f.write('payments,amount,external,date_created'+"\r\n")
 
 for item in list_:
